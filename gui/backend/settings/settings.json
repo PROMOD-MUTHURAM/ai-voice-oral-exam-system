@@ -1,0 +1,144 @@
+{
+    "general": {
+        "application_name": "Python Oral Examination System",
+        "admin_panel_title": "Admin Control Panel",
+        "show_save_success_message": true,
+        "show_error_messages": true,
+        "confirm_dangerous_actions": true,
+        "refresh_after_save": true,
+        "auto_update_timestamp": true
+    },
+    "exam_management": {
+        "allow_exam_creation": true,
+        "allow_exam_edit": true,
+        "allow_exam_delete": true,
+        "allow_inactive_exams": true,
+        "allow_exam_activation": true,
+        "allow_exam_deactivation": true,
+        "confirm_exam_delete": true,
+        "protect_exam_with_records": true,
+        "preserve_created_at": true
+    },
+    "exam_archive": {
+        "enable_archive": true,
+        "enable_restore": true,
+        "soft_archive": true,
+        "preserve_original_status": true,
+        "store_archive_timestamp": true,
+        "store_restore_timestamp": true,
+        "confirm_archive": true,
+        "confirm_restore": true,
+        "confirm_permanent_delete": true,
+        "protect_archived_data": true
+    },
+    "oral_exam": {
+        "auto_save_answers": true,
+        "save_answer_time": true,
+        "automatic_submission_on_timeout": true,
+        "prevent_duplicate_answers": true,
+        "preserve_answer_history": true,
+        "allow_answer_correction_before_submit": true,
+        "save_submission_timestamp": true,
+        "save_attempt_number": true
+    },
+    "questions": {
+        "allow_question_creation": true,
+        "allow_question_edit": true,
+        "allow_question_delete": true,
+        "allow_question_activation": true,
+        "allow_question_deactivation": true,
+        "preserve_question_number": true,
+        "store_expected_answer": true,
+        "store_keywords": true,
+        "store_question_type": true,
+        "store_question_marks": true,
+        "store_difficulty": true,
+        "store_topic": true,
+        "protect_used_questions": true
+    },
+    "students": {
+        "allow_student_creation": true,
+        "allow_student_edit": true,
+        "allow_student_delete": true,
+        "allow_student_activation": true,
+        "allow_student_deactivation": true,
+        "allow_inactive_student_login": false,
+        "protect_students_with_exam_records": true,
+        "preserve_student_id": true,
+        "preserve_created_at": true
+    },
+    "attempts": {
+        "keep_attempt_history": true,
+        "preserve_attempt_number": true,
+        "store_start_time": true,
+        "store_submission_time": true,
+        "store_automatic_submission_status": true,
+        "preserve_submitted_answers": true
+    },
+    "results": {
+        "calculate_secured_marks": true,
+        "calculate_percentage": true,
+        "calculate_result": true,
+        "use_exam_pass_percentage": true,
+        "store_total_allotted_marks": true,
+        "store_total_secured_marks": true,
+        "store_percentage": true,
+        "store_result_status": true,
+        "store_pass_percentage": true,
+        "store_result_timestamp": true,
+        "allow_result_view": true,
+        "allow_result_recalculation": true,
+        "confirm_result_delete": true
+    },
+    "sessions": {
+        "allow_multiple_sessions": true,
+        "keep_session_history": true,
+        "preserve_session_id": true,
+        "preserve_created_at": true,
+        "preserve_updated_at": true,
+        "store_session_status": true,
+        "store_student_ids": true,
+        "protect_active_session": true,
+        "confirm_session_delete": true
+    },
+    "data": {
+        "preserve_unknown_fields": true,
+        "pretty_json": true,
+        "utf8_encoding": true,
+        "validate_json_before_save": true,
+        "create_backup_before_update": true,
+        "create_backup_before_delete": true,
+        "create_backup_before_archive": true,
+        "create_backup_before_restore": true,
+        "create_missing_directories": true,
+        "protect_invalid_json": true
+    },
+    "admin_panel": {
+        "settings_child_window": true,
+        "exam_management_child_window": true,
+        "exam_archive_child_window": true,
+        "student_management_child_window": true,
+        "result_management_child_window": true,
+        "show_navigation_messages": true,
+        "show_operation_status": true,
+        "refresh_after_operation": true
+    },
+    "security": {
+        "confirm_dangerous_actions": true,
+        "confirm_permanent_delete": true,
+        "protect_sensitive_data": true,
+        "hide_password_in_admin_views": true,
+        "prevent_empty_admin_password": true
+    },
+    "system": {
+        "auto_update_updated_at": true,
+        "preserve_created_at": true,
+        "validate_marks": true,
+        "validate_percentage": true,
+        "validate_duration": true,
+        "validate_question_count": true,
+        "validate_exam_status": true,
+        "validate_session_status": true,
+        "validate_student_status": true
+    }
+}

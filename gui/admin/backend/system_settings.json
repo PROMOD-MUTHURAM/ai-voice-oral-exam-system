@@ -1,0 +1,44 @@
+{
+    "system": {
+        "application_name": "Python Oral Examination System",
+        "auto_save": true,
+        "auto_archive": false,
+        "confirm_before_delete": true,
+        "confirm_before_archive": true,
+        "allow_restore_archive": true
+    },
+    "exam_management": {
+        "allow_exam_creation": true,
+        "allow_exam_edit": true,
+        "allow_exam_delete": true,
+        "allow_exam_archive": true,
+        "allow_exam_restore": true,
+        "show_inactive_exams": true
+    },
+    "oral_exam": {
+        "default_duration_minutes": 30,
+        "default_answer_time_seconds": 60,
+        "allow_custom_answer_time": true,
+        "automatic_submission": true
+    },
+    "questions": {
+        "allow_question_creation": true,
+        "allow_question_edit": true,
+        "allow_question_delete": true,
+        "allow_question_reorder": true,
+        "show_expected_answer_to_admin": true
+    },
+    "results": {
+        "default_pass_percentage": 50.0,
+        "allow_result_recalculation": true,
+        "show_percentage": true,
+        "show_secured_marks": true,
+        "show_result_status": true
+    },
+    "students": {
+        "allow_student_creation": true,
+        "allow_student_edit": true,
+        "allow_student_delete": true,
+        "allow_multiple_attempts": true
+    }
+}
